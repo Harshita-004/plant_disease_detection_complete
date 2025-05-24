@@ -40,7 +40,7 @@ Place 5 tomato disease folders under `/dataset/`:
 Copy
 Edit
 model.h5
-📂 Purpose: This file contains the trained weights and architecture used for plant disease detection from leaf images.
+Purpose: This file contains the trained weights and architecture used for plant disease detection from leaf images.
 
 -Framework: Built using Keras with TensorFlow backend.
 
