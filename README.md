@@ -49,7 +49,6 @@ Purpose: This file contains the trained weights and architecture used for plant 
 -Usage:
 
 -Load this model in your Python/Streamlit app using:
-
 -python
 -Copy
 -Edit
