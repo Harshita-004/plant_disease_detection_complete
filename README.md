@@ -34,6 +34,29 @@ Place 5 tomato disease folders under `/dataset/`:
 - Tomato_Septoria_leaf_spot
 - Tomato_healthy
 
+## model.h5
+## This project includes a trained Convolutional Neural Network (CNN) model stored in the file:
+
+Copy
+Edit
+model.h5
+📂 Purpose: This file contains the trained weights and architecture used for plant disease detection from leaf images.
+
+-Framework: Built using Keras with TensorFlow backend.
+
+-Training Data: Trained on the PlantVillage Dataset.
+
+-Usage:
+
+-Load this model in your Python/Streamlit app using:
+
+-python
+-Copy
+-Edit
+-from tensorflow.keras.models import load_model
+-model = load_model('model.h5')
+-Used to predict diseases from uploaded leaf images.
+
 ## 📦 Deliverables
 - Trained CNN model
 - Streamlit Web App
